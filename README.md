@@ -1,8 +1,12 @@
 # Leaf Disease Detection
 
-A Flask-based web application that uses a pre-trained MobileNetV2 model to detect plant diseases from leaf images. The application features a modern UI with drag-and-drop functionality for image uploads, providing farmers and plant enthusiasts with an accessible tool for rapid disease identification and management.
+A Flask-based web application that uses a pre-trained MobileNetV2 model to detect plant diseases from leaf images. The application features a modern UI with drag-and-drop functionality for image uploads, providing farmers and plant enthusiasts with an accessible tool for rapid disease identification and management.A highly accurate modal trained over plantVillage Dataset ( a huge datset of disease and name of plants leaf as well as healty leafs )
 
 ### Description
+
+https://github.com/user-attachments/assets/29c56ac6-736c-4a85-ac02-c5a6ba3c415c
+
+
 A Flask-based web application that uses a pre-trained MobileNetV2 model to detect plant diseases from leaf images. The application features a modern UI with drag-and-drop functionality for image uploads, providing farmers and plant enthusiasts with an accessible tool for rapid disease identification and management. After testing various models, this specific MobileNetV2 implementation was selected as it demonstrated superior performance, largely due to being trained on the PlantVillage dataset - the largest and most comprehensive plant disease image collection available.
 
 ## Features
@@ -24,13 +28,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 2. Install the required packages:
 ```bash
 pip install -r requirements.txt
-```
-
-3. Create the necessary directories:
-```bash
-mkdir static
-mkdir static/uploads
-mkdir templates
 ```
 
 ## Running the Application
